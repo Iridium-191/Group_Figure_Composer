@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If Group Figure Composer helps prepare figures for a publication or preprint, please cite this repository."
+title: "Group Figure Composer"
+version: "0.1.0"
+date-released: "2026-07-04"
+authors:
+  - family-names: "Mao"
+    given-names: "Ruilin"
+    affiliation: "ICQM, Peking University"
+license: "MIT"
+repository-code: "https://github.com/Iridium-191/Group_Figure_Composer"
+keywords:
+  - MATLAB
+  - scientific figures
+  - multi-panel figures
+  - publication figures
+  - figure composition
