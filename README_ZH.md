@@ -41,6 +41,18 @@ GroupFigureComposer
 GroupFigureComposerCN
 ```
 
+### 英文交互 GUI
+
+```matlab
+GroupFigureComposerGUI_EN
+```
+
+或者不带参数调用英文入口：
+
+```matlab
+GroupFigureComposerEN
+```
+
 ### 英文命令式工具
 
 ```matlab
@@ -148,7 +160,8 @@ groupData.fig1.legend_001.panelLabel
 ```text
 GroupFigureComposer.m          主入口，打开中文版交互 GUI
 GroupFigureComposerCN.m        显式中文版 GUI 入口
-GroupFigureComposerEN.m        英文命令式入口
+GroupFigureComposerGUI_EN.m    英文交互 GUI 入口
+GroupFigureComposerEN.m        英文 GUI / 命令式入口
 GroupFigureComposerLite.m      英文轻量组图工具
 GroupFigureComposerApp.m       主要交互 App 实现
 +gfc/                         核心函数包

@@ -48,6 +48,19 @@ or explicitly:
 GroupFigureComposerCN
 ```
 
+### English interactive GUI
+
+```matlab
+GroupFigureComposerGUI_EN
+```
+
+You can also launch the English GUI by calling `GroupFigureComposerEN` without
+input arguments:
+
+```matlab
+GroupFigureComposerEN
+```
+
 ### English command-style utility
 
 ```matlab
@@ -145,7 +158,8 @@ their source path and object type information for traceability.
 ```text
 GroupFigureComposer.m          Main Chinese GUI launcher
 GroupFigureComposerCN.m        Explicit Chinese GUI launcher
-GroupFigureComposerEN.m        English command-style launcher
+GroupFigureComposerGUI_EN.m    English interactive GUI launcher
+GroupFigureComposerEN.m        English GUI / command-style launcher
 GroupFigureComposerLite.m      English lightweight composition utility
 GroupFigureComposerApp.m       Main interactive app implementation
 +gfc/                         Core reusable functions

@@ -7,6 +7,9 @@ function app = GroupFigureComposer()
 %
 % English command-style utility:
 %   GroupFigureComposerEN(files, outputFile, Name=Value)
+%
+% English interactive GUI:
+%   GroupFigureComposerGUI_EN
 
 app = GroupFigureComposerApp();
 if nargout == 0

@@ -30,6 +30,14 @@ GroupFigureComposer
 GroupFigureComposerCN
 ```
 
+English interactive GUI:
+
+```matlab
+GroupFigureComposerGUI_EN
+% or
+GroupFigureComposerEN
+```
+
 English command-style utility:
 
 ```matlab
@@ -70,7 +78,8 @@ run("examples/demo_lite.m")
 ```text
 GroupFigureComposer.m          Main Chinese GUI launcher
 GroupFigureComposerCN.m        Explicit Chinese GUI launcher
-GroupFigureComposerEN.m        English command-style launcher
+GroupFigureComposerGUI_EN.m    English interactive GUI launcher
+GroupFigureComposerEN.m        English GUI / command-style launcher
 GroupFigureComposerLite.m      English lightweight composition utility
 GroupFigureComposerApp.m       Main interactive app implementation
 +gfc/                         Core reusable functions

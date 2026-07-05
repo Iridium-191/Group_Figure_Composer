@@ -14,6 +14,11 @@ function result = GroupFigureComposerEN(files, outputFile, opts)
 %
 % For the full Chinese interactive GUI, use:
 %   GroupFigureComposerCN
+%
+% For the English interactive GUI, call without arguments:
+%   GroupFigureComposerEN
+% or use:
+%   GroupFigureComposerGUI_EN
 
 arguments
     files = string.empty(1, 0)
@@ -29,10 +34,11 @@ arguments
 end
 
 if isempty(files)
-    help GroupFigureComposerEN
+    result = GroupFigureComposerGUI_EN();
     if nargout > 0
-        result = struct();
+        return
     end
+    clear result
     return
 end
 

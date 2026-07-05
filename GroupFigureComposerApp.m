@@ -1463,7 +1463,7 @@ classdef GroupFigureComposerApp < handle
         function enabled = snapEnabled(app)
             enabled = false;
             try
-                enabled = strcmp(app.SnapSwitch.Value, '开');
+                enabled = any(strcmp(app.SnapSwitch.Value, {'开','On'}));
             catch
             end
         end
